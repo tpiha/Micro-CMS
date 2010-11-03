@@ -1,0 +1,22 @@
+MODULES:
+- calendar
+- events
+- theme chooser
+
+- languages (fix)
+- users (groups, permissions, edit, add, delete, profiles)
+- registration
+- cron
+- polls
+- files
+- newsletter
+
+- multiportal admin
+- more than one database support
+- smf integration
+- wap2 theme
+- fix and finish scaffolding
+- new rte
+
+- hpiha theme
+- kset theme

@@ -1,0 +1,68 @@
+1.0 BETA 2:
+* fix incroatia theme
+	* add gallery
+	* fix menus
+	* fix comment delete
+	* fix lorem ipsum stuff
+* clean routes
+* hanchor (check and fix if needed)
+* luri_redirect (check and fix if needed)
+* bugfix - do not delete data/cache directory or .svn in it
+* bugfix - breadcrumbs when home not home
+* bugfix - gallery - only jpg
+* bugfix - active language in admin should be span
+* bugfix - search returns content that is not published
+* bugfix - sitemap with incroatia database on both themes
+* gallery
+	* images and gallery data (name, description)
+	* pagination
+	* id in image file names and not unique link
+* iframe_upload in new controller
+* installation
+	* put url automatically
+	* check data permissions recursively
+	* clear core logic (libs/lcore.php)
+	* dissalow site usage with 777 permissions on conf/config.php
+========================================================================
+1.0 BETA 1:
+* luser_require check on new admin stuff
+	* galleries
+	* iframe_upload
+	* comments_delete
+* bugfix - fix captcha (doesn't stop robots)
+* option to delete comments
+* installation
+	* load config from tools
+	* bugfix - reload for mysql dump import
+	* refresh
+* gallery
+	* simple ajax upload
+	* drag and drop images reordering
+	* edit image
+	* image delete
+	* gallery delete
+	* create new gallery
+	* bugfix - check if gallery with same link already exists
+	* keywords and description for galleries
+	* keywords and description for images
+	* frontend controller
+	* meta data
+	* automatically update category
+	* automatically create category
+	* automatically delete category
+* bugfix - fixed bug with extern url in sitemap
+* new main menu order in docs
+* bugfix - sitemap.xml
+* bugfix - install.sql
+* bugfix - fix filesystem
+* date on articles in default theme
+* bugfix - search is not ordered (?)
+* bugfix - duplicated links in sitemap
+* search onclick clean text field
+* bugfix - fix menus in login
+* bugfix - published not working on some pages
+* finished date to publish
+* bugfix - min 3 characters as search keyword
+* bugfix - link update check (if default_uri, default_uri should be changed too)
+* bugfix - if link changed in content, in comments stays the same
+* bugfix - sitemap.xml lastmod

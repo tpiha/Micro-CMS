@@ -1,0 +1,34 @@
+1.0 BETA 2:
+* gallery
+	* resize and crop checbox
+	* date to publish, time to publish and author
+	* comments on galleries and images
+	* bug - published not working
+* new way of adding extra stuff in admin
+* clean views, models, controllers and helpers
+* clean admin (helpers, models, conf files)
+
+BUG
+- bug - deleting parents, children left (should also delete comments and childrens' comments)
+- bug - add, edit, delete categories wrong redirect
+- bug - docs shows functions from hardcoded javascript
+- bug - hanchor_class when one link is in another
+- bug - published, published date and published time everywhere (content, categories, galleries)
+- bug - hanchor_class in admin interface
+- bug - extra suffix on url not detected
+
+OTHER:
+- comments and documentation
+- add comments in rss
+- add galleries in rss
+- add comments in sitemap.xml
+- add galleries in sitemap.xml
+- login
+	- remember me
+	- login from another location logs user out
+- check all html on other browsers
+- clean html and css
+- drag and drop sitemap for admin home (or some kind of admin start page)
+- tune up search
+- when creating categories or changing their parent, make sure to add correct order id
+- all double quotes to single quotes

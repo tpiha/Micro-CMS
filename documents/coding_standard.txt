@@ -1,0 +1,23 @@
+MICRO CMS CODING STANDARD
+---------------------------------------------------------------------
+
+	1. FILE NAMES
+		- files in controllers/ folder are prepended with letter c (singular)
+		- files in libs/ folder are prepended with letter l (singular)
+		- files in model/ folder are prepended with letter m (singular)
+		- nouns
+	2. FUNCTION NAMES
+		- function names are joined file name, underscore (_) and function name (e.g. lcore_init for init function in lcore.php file)
+		- verbs
+	3. VARIABLE NAMES
+		- global variables are prepended with letter g
+		- nouns
+	4. FILESYSTEM STRUCTURE
+		* LIBS
+			- core libraries, models and helpers
+		* CONTROLLERS
+		* VIEWS
+		* MODELS
+		* LANGS
+		* DOCS
+		* INDEX.PHP

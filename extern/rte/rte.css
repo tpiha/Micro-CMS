@@ -1,0 +1,71 @@
+.body {
+	font-size: 12px;
+	font-family: Verdana, Arial, Tahoma;
+}
+
+.rteImage {
+	margin-top: 2px;
+	background: #EEEEEE;
+	border: 1px solid #EEEEEE;
+	cursor: pointer;
+	cursor: hand;
+	margin-left: 3px;
+}
+
+.rteSelect {
+	border-style: none;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.rteImageRaised, .rteImage:hover {
+	background: #D3D3D3;
+	border: 1px outset;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteIFrame {
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffffff;
+	border-color: #CCCCCC;
+}
+
+.rtePallette {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.rteImageLowered, .rteImage:active {
+	background: #D3D3D3;
+	border: 1px inset;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteVertSep {
+	margin: 0 4px 0 4px;
+}
+
+.rteBack {
+	background: #EEEEEE;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-bottom-style: none;
+	letter-spacing: 0;
+	height: 30px;
+}
+
+.rteBack tbody tr td, .rteBack tr td {
+	background: #EEEEEE;
+	padding: 0px;
+}
+
+.rteDiv {
+	display: block;
+	position: relative;
+}
+
+.rteDiv select { padding: 3px; width: auto; }
